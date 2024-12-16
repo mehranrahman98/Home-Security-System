@@ -10,6 +10,8 @@ The Home Security System involves four primary states:
 
 The system utilizes tasks to manage these states and ensure reliable transitions. Key features include the use of critical sections, semaphores, thread flags, and a queue to manage resource sharing and time synchronization. The hardware components involved include onboard LEDs, an IMU accelerometer, a hardware timer, a Wi-Fi module, and external interrupt functionality.
 
+![Home Security System Diagram](./Images/State_Machine.png)
+
 ### System Initialization
 1. **Main Initialization**: 
    - Hardware peripherals, FreeRTOS kernel, and tasks are initialized.
